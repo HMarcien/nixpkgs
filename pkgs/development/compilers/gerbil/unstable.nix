@@ -5,19 +5,19 @@
 }:
 
 callPackage ./build.nix rec {
-  version = "unstable-2023-12-06";
-  git-version = "0.18.1";
+  version = "unstable-2025-05-13";
+  git-version = "0.18.1-162-g0f5829cd";
   src = fetchFromGitHub {
     owner = "mighty-gerbils";
     repo = "gerbil";
-    rev = "23c30a6062cd7e63f9d85300ce01585bb9035d2d";
-    sha256 = "15fh0zqkmnjhan1mgymq5fgbjsh5z9d2v6zjddplqib5zd2s3z6k";
+    rev = "0f5829cd0d68e87426f0e5a80efbe2dfe9ae6659";
+    sha256 = "0jyf4n0diccz689z6avyifki8vndq9xpjk99fv8aarc2g62kaczv";
     fetchSubmodules = true;
   };
   inherit gambit-support;
   gambit-params = gambit-support.unstable-params;
   # These are available in pkgs.gambit-unstable.passthru.git-version, etc.
-  gambit-git-version = "4.9.5-78-g8b18ab69";
+  gambit-git-version = "4.9.6-14-gb46d47a8";
   gambit-stampYmd = "20231029";
   gambit-stampHms = "163035";
 }
