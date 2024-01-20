@@ -9,8 +9,8 @@
 
 rec {
   pname = "glow-lang";
-  version = "unstable-2023-12-04";
-  git-version = "0.3.2-237-g08d849ad";
+  version = "unstable-2025-05-13";
+  git-version = "0.3.2-242-ga2d8512d";
   softwareName = "Glow";
   gerbil-package = "mukn/glow";
   version-path = "version";
@@ -29,8 +29,8 @@ rec {
     fun = fetchFromGitHub;
     owner = "Glow-Lang";
     repo = "glow";
-    rev = "08d849adef94ae9deead34e6981e77d47806c6e3";
-    sha256 = "0dq0s8y3rgx0wa5wsgcdjs0zijnbgff3y4w2mkh5a04gz4lrhl50";
+    rev = "a2d8512d12b8afb0e3f5dbc52aa857ea8cfee831";
+    sha256 = "0divfar2b8n2sf54wmqrcvkbi54rng80brixrnywjq7005w00yqs";
   };
 
   postPatch = ''
