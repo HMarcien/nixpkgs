@@ -6,12 +6,12 @@
 
 callPackage ./build.nix rec {
   version = "unstable-2025-05-13";
-  git-version = "0.18.1-162-g0f5829cd";
+  git-version = "0.18.1-163-ge55e0806";
   src = fetchFromGitHub {
     owner = "mighty-gerbils";
     repo = "gerbil";
-    rev = "0f5829cd0d68e87426f0e5a80efbe2dfe9ae6659";
-    sha256 = "0jyf4n0diccz689z6avyifki8vndq9xpjk99fv8aarc2g62kaczv";
+    rev = "e55e0806a77f7364c649dbd99ada5972b6f90689";
+    sha256 = "03kkazihp2wbc76hcg17h2yid5223h3gp7bdshg1kzbi48kvwv1s";
     fetchSubmodules = true;
   };
   inherit gambit-support;
