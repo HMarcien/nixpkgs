@@ -6,11 +6,11 @@
 
 callPackage ./build.nix rec {
   version = "unstable-2025-09-05";
-  git-version = "0.18.1-164-g7947d2da";
+  git-version = "0.18.1-171-g7a453ba4";
   src = fetchFromGitHub {
     owner = "mighty-gerbils";
     repo = "gerbil";
-    rev = "7947d2dade038296b146d223eb7f90a8e6449442";
+    rev = "7a453ba47ac033fbe5be941768c1c642bc3f576b";
     sha256 = "0mbm6srf5mvrd7syfj4inczfm7k41jwsrnmy5yid708kwvvz5nbm";
     fetchSubmodules = true;
   };
