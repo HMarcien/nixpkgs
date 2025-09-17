@@ -5,7 +5,7 @@
 }:
 
 callPackage ./build.nix rec {
-  version = "unstable-2025-09-05";
+  version = "unstable-2025-10-05";
   git-version = "0.18.1-171-g7a453ba4";
   src = fetchFromGitHub {
     owner = "mighty-gerbils";
