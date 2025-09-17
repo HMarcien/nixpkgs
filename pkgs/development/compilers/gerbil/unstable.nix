@@ -10,7 +10,7 @@ callPackage ./build.nix rec {
   src = fetchFromGitHub {
     owner = "mighty-gerbils";
     repo = "gerbil";
-    rev = "e55e0806a77f7364c649dbd99ada5972b6f90689";
+    rev = "7947d2dade038296b146d223eb7f90a8e6449442";
     sha256 = "03kkazihp2wbc76hcg17h2yid5223h3gp7bdshg1kzbi48kvwv1s";
     fetchSubmodules = true;
   };
