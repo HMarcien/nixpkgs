@@ -11,13 +11,13 @@ callPackage ./build.nix rec {
     owner = "mighty-gerbils";
     repo = "gerbil";
     rev = "7947d2dade038296b146d223eb7f90a8e6449442";
-    sha256 = "03kkazihp2wbc76hcg17h2yid5223h3gp7bdshg1kzbi48kvwv1s";
+    sha256 = "01lv4niy7z3fjwg84g6mbncydwhalhj7d86jp0czblb8wm4l5jyy";
     fetchSubmodules = true;
   };
   inherit gambit-support;
   gambit-params = gambit-support.unstable-params;
   # These are available in pkgs.gambit-unstable.passthru.git-version, etc.
-  gambit-git-version = "4.9.6-14-gb46d47a8";
-  gambit-stampYmd = "20231029";
+  gambit-git-version = "4.9.7-6-g64f4d369";
+  gambit-stampYmd = "20250713";
   gambit-stampHms = "163035";
 }
