@@ -5,8 +5,8 @@
 }:
 
 callPackage ./build.nix rec {
-  version = "unstable-2025-05-13";
-  git-version = "0.18.1-163-ge55e0806";
+  version = "unstable-2025-09-05";
+  git-version = "0.18.1-164-g7947d2da";
   src = fetchFromGitHub {
     owner = "mighty-gerbils";
     repo = "gerbil";
@@ -17,7 +17,7 @@ callPackage ./build.nix rec {
   inherit gambit-support;
   gambit-params = gambit-support.unstable-params;
   # These are available in pkgs.gambit-unstable.passthru.git-version, etc.
-  gambit-git-version = "4.9.6-14-gb46d47a8";
-  gambit-stampYmd = "20231029";
+  gambit-git-version = "4.9.7-6-g64f4d369";
+  gambit-stampYmd = "20250713";
   gambit-stampHms = "163035";
 }
